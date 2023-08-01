@@ -11,11 +11,11 @@ async function run() {
     'Add 100',
 
     b.add('Native a + 100', () => {
-      plus100(10)
+      plus100(100000000000)
     }),
 
     b.add('JavaScript a + 100', () => {
-      add(10)
+      add(100000000000)
     }),
 
     b.cycle(),
